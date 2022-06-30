@@ -1,0 +1,14 @@
+----Creacion Entorno Virtual ----
+sudo apt install  python3.9-venv
+
+python3 -m venv venv 
+
+source venv/bin/activate
+
+
+--MODULOS PYTHON----
+pip freeze -- ver todos los modulos instalados 
+pip install modulo -- instala cualquier modulo
+
+pip freeze > requirements.txt  -- listamos los modulos ya instalados
+pip install  -r requirements.txt -- instalara todas las dependencias del txt 
